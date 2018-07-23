@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Login_Page.Models.employee>
+@using Login_Page.Models;
+@{
+    ViewBag.Title = "Employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Employee</h2>
+<div>
+    
+                @Html.DropDownList("City","select dept")
+
+               @* @Html.ActionLink("Get Employee", "GetEmployee",new { id=ee.EID})*@
+           
+</div>
